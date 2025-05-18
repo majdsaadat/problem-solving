@@ -1,0 +1,52 @@
+
+.container {
+    background-color: rgba(255, 255, 255, 0.928);
+    font-size: 15px;
+    border: 2px solid lightgrey;
+    margin: 50px 200px;
+    max-width: 500px;
+    box-shadow: 5px 6px lightgrey;
+}
+.container h1{
+    background-color: white;
+    font-size: 15px;
+    margin-left:5px;
+    
+}
+input{
+    border:none;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 6px 4px;
+    width: 100%;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+input:hover{
+outline: none;
+}
+.clearCompleted{
+    border:none;
+    background-color: rgb(198, 197, 197);
+    padding: 10px 6px;
+    width: 100%;
+   color: rgb(109, 108, 108);
+}
+
+
+ul {
+    padding: 0;
+  }
+li {
+    display: flex;
+    margin-top: 10px;
+    padding: 0px;
+  }
+  .my-checkbox {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  
